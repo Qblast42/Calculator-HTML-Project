@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OnlineCalculator</title>
+	<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+	<div class="calculator">
+		<div id="display"> </div>
+		<div id="buttons">
+			<button onclick="clearDisplay()" class="button2">C</button>
+			<button onclick="appendValue('**')" class="button2">x²</button>
+			<button onclick="appendValue('/')" class="button2">/</button>
+			<button onclick="appendValue('*')" class="button2">x</button>
+			<br>
+			<button onclick="appendValue('7')" class="button1">7</button>
+			<button onclick="appendValue('8')" class="button1">8</button>
+			<button onclick="appendValue('9')" class="button1">9</button>
+			<button onclick="appendValue('-')" class="button2">-</button>
+			<br>
+			<button onclick="appendValue('4')" class="button1">4</button>
+			<button onclick="appendValue('5')" class="button1">5</button>
+			<button onclick="appendValue('6')" class="button1">6</button>
+			<button onclick="appendValue('+')" class="button2">+</button>
+			<br>
+			<button onclick="appendValue('1')" class="button1">1</button>
+			<button onclick="appendValue('2')" class="button1">2</button>
+			<button onclick="appendValue('3')" class="button1">3</button>
+			<button onclick="appendValue(ANS)" class="button2">ANS</button>
+			<br>
+			<button onclick="appendValue('0')" class="button1">0</button>
+			<button onclick="appendValue('.')" class="button1">.</button>
+			<button onclick="calculate()" class="equals button2">=</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+		
