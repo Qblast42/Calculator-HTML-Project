@@ -33,7 +33,7 @@ button {
  .button2:active {
 	background-color: #3091eb;
 }
-
+/* each of these will change the colour of the relevant button on click/hover */
 
 body {
 background-color: rgb(68, 68, 68);
@@ -63,7 +63,7 @@ background-color: rgb(68, 68, 68);
 	padding-top: 10px;
 }
 #buttons {
-	display: inline-block;
+	display: inline-block; /*inline block used to ensure grid layout */
 	margin: 0;
 	padding: 0;
 	font-size: 0;

@@ -10,8 +10,8 @@
 	<div class="calculator">
 		<div id="display"> </div>
 		<div id="buttons">
-			<button onclick="clearDisplay()" class="button2">C</button>
-			<button onclick="appendValue('**')" class="button2">x²</button>
+			<button onclick="clearDisplay()" class="button2">C</button>  <!--When pressed the button executes the clear display button-->
+			<button onclick="appendValue('**')" class="button2">x²</button> <!--Each of the buttons use an appendValue() func to insert the relevant value to the display-->
 			<button onclick="appendValue('/')" class="button2">/</button>
 			<button onclick="appendValue('*')" class="button2">x</button>
 			<br>
@@ -32,7 +32,7 @@
 			<br>
 			<button onclick="appendValue('0')" class="button1">0</button>
 			<button onclick="appendValue('.')" class="button1">.</button>
-			<button onclick="calculate()" class="equals button2">=</button>
+			<button onclick="calculate()" class="equals button2">=</button>  <!--When clicked the button will execute the calculate() func, displaying the result-->
 		</div>
 	</div>
 	<script src="script.js"></script>
